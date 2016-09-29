@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA97B93B1D9D6CA9005F92BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA97B93A1D9D6CA9005F92BC /* main.m */; };
+		CA97B93E1D9D6CA9005F92BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA97B93D1D9D6CA9005F92BC /* AppDelegate.m */; };
+		CA97B9411D9D6CA9005F92BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA97B9401D9D6CA9005F92BC /* ViewController.m */; };
+		CA97B9441D9D6CA9005F92BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA97B9421D9D6CA9005F92BC /* Main.storyboard */; };
+		CA97B9461D9D6CA9005F92BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA97B9451D9D6CA9005F92BC /* Assets.xcassets */; };
+		CA97B9491D9D6CA9005F92BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA97B9471D9D6CA9005F92BC /* LaunchScreen.storyboard */; };
+		CA97B9541D9D6CA9005F92BC /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA97B9531D9D6CA9005F92BC /* _______Tests.m */; };
+		CA97B95F1D9D6CA9005F92BC /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA97B95E1D9D6CA9005F92BC /* _______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA97B9501D9D6CA9005F92BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA97B92E1D9D6CA9005F92BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA97B9351D9D6CA9005F92BC;
+			remoteInfo = "给图片添加水印";
+		};
+		CA97B95B1D9D6CA9005F92BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA97B92E1D9D6CA9005F92BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA97B9351D9D6CA9005F92BC;
+			remoteInfo = "给图片添加水印";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA97B9361D9D6CA9005F92BC /* 给图片添加水印.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "给图片添加水印.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA97B93A1D9D6CA9005F92BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA97B93C1D9D6CA9005F92BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA97B93D1D9D6CA9005F92BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA97B93F1D9D6CA9005F92BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA97B9401D9D6CA9005F92BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA97B9431D9D6CA9005F92BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA97B9451D9D6CA9005F92BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA97B9481D9D6CA9005F92BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA97B94A1D9D6CA9005F92BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA97B94F1D9D6CA9005F92BC /* 给图片添加水印Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "给图片添加水印Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA97B9531D9D6CA9005F92BC /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		CA97B9551D9D6CA9005F92BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA97B95A1D9D6CA9005F92BC /* 给图片添加水印UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "给图片添加水印UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA97B95E1D9D6CA9005F92BC /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
+		CA97B9601D9D6CA9005F92BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA97B9331D9D6CA9005F92BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA97B94C1D9D6CA9005F92BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA97B9571D9D6CA9005F92BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA97B92D1D9D6CA9005F92BC = {
+			isa = PBXGroup;
+			children = (
+				CA97B9381D9D6CA9005F92BC /* 给图片添加水印 */,
+				CA97B9521D9D6CA9005F92BC /* 给图片添加水印Tests */,
+				CA97B95D1D9D6CA9005F92BC /* 给图片添加水印UITests */,
+				CA97B9371D9D6CA9005F92BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA97B9371D9D6CA9005F92BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA97B9361D9D6CA9005F92BC /* 给图片添加水印.app */,
+				CA97B94F1D9D6CA9005F92BC /* 给图片添加水印Tests.xctest */,
+				CA97B95A1D9D6CA9005F92BC /* 给图片添加水印UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA97B9381D9D6CA9005F92BC /* 给图片添加水印 */ = {
+			isa = PBXGroup;
+			children = (
+				CA97B93C1D9D6CA9005F92BC /* AppDelegate.h */,
+				CA97B93D1D9D6CA9005F92BC /* AppDelegate.m */,
+				CA97B93F1D9D6CA9005F92BC /* ViewController.h */,
+				CA97B9401D9D6CA9005F92BC /* ViewController.m */,
+				CA97B9421D9D6CA9005F92BC /* Main.storyboard */,
+				CA97B9451D9D6CA9005F92BC /* Assets.xcassets */,
+				CA97B9471D9D6CA9005F92BC /* LaunchScreen.storyboard */,
+				CA97B94A1D9D6CA9005F92BC /* Info.plist */,
+				CA97B9391D9D6CA9005F92BC /* Supporting Files */,
+			);
+			path = "给图片添加水印";
+			sourceTree = "<group>";
+		};
+		CA97B9391D9D6CA9005F92BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA97B93A1D9D6CA9005F92BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA97B9521D9D6CA9005F92BC /* 给图片添加水印Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CA97B9531D9D6CA9005F92BC /* _______Tests.m */,
+				CA97B9551D9D6CA9005F92BC /* Info.plist */,
+			);
+			path = "给图片添加水印Tests";
+			sourceTree = "<group>";
+		};
+		CA97B95D1D9D6CA9005F92BC /* 给图片添加水印UITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA97B95E1D9D6CA9005F92BC /* _______UITests.m */,
+				CA97B9601D9D6CA9005F92BC /* Info.plist */,
+			);
+			path = "给图片添加水印UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA97B9351D9D6CA9005F92BC /* 给图片添加水印 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA97B9631D9D6CA9005F92BC /* Build configuration list for PBXNativeTarget "给图片添加水印" */;
+			buildPhases = (
+				CA97B9321D9D6CA9005F92BC /* Sources */,
+				CA97B9331D9D6CA9005F92BC /* Frameworks */,
+				CA97B9341D9D6CA9005F92BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "给图片添加水印";
+			productName = "给图片添加水印";
+			productReference = CA97B9361D9D6CA9005F92BC /* 给图片添加水印.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA97B94E1D9D6CA9005F92BC /* 给图片添加水印Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA97B9661D9D6CA9005F92BC /* Build configuration list for PBXNativeTarget "给图片添加水印Tests" */;
+			buildPhases = (
+				CA97B94B1D9D6CA9005F92BC /* Sources */,
+				CA97B94C1D9D6CA9005F92BC /* Frameworks */,
+				CA97B94D1D9D6CA9005F92BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA97B9511D9D6CA9005F92BC /* PBXTargetDependency */,
+			);
+			name = "给图片添加水印Tests";
+			productName = "给图片添加水印Tests";
+			productReference = CA97B94F1D9D6CA9005F92BC /* 给图片添加水印Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA97B9591D9D6CA9005F92BC /* 给图片添加水印UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA97B9691D9D6CA9005F92BC /* Build configuration list for PBXNativeTarget "给图片添加水印UITests" */;
+			buildPhases = (
+				CA97B9561D9D6CA9005F92BC /* Sources */,
+				CA97B9571D9D6CA9005F92BC /* Frameworks */,
+				CA97B9581D9D6CA9005F92BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA97B95C1D9D6CA9005F92BC /* PBXTargetDependency */,
+			);
+			name = "给图片添加水印UITests";
+			productName = "给图片添加水印UITests";
+			productReference = CA97B95A1D9D6CA9005F92BC /* 给图片添加水印UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA97B92E1D9D6CA9005F92BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Rochester;
+				TargetAttributes = {
+					CA97B9351D9D6CA9005F92BC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					CA97B94E1D9D6CA9005F92BC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA97B9351D9D6CA9005F92BC;
+					};
+					CA97B9591D9D6CA9005F92BC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA97B9351D9D6CA9005F92BC;
+					};
+				};
+			};
+			buildConfigurationList = CA97B9311D9D6CA9005F92BC /* Build configuration list for PBXProject "给图片添加水印" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA97B92D1D9D6CA9005F92BC;
+			productRefGroup = CA97B9371D9D6CA9005F92BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA97B9351D9D6CA9005F92BC /* 给图片添加水印 */,
+				CA97B94E1D9D6CA9005F92BC /* 给图片添加水印Tests */,
+				CA97B9591D9D6CA9005F92BC /* 给图片添加水印UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA97B9341D9D6CA9005F92BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA97B9491D9D6CA9005F92BC /* LaunchScreen.storyboard in Resources */,
+				CA97B9461D9D6CA9005F92BC /* Assets.xcassets in Resources */,
+				CA97B9441D9D6CA9005F92BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA97B94D1D9D6CA9005F92BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA97B9581D9D6CA9005F92BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA97B9321D9D6CA9005F92BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA97B9411D9D6CA9005F92BC /* ViewController.m in Sources */,
+				CA97B93E1D9D6CA9005F92BC /* AppDelegate.m in Sources */,
+				CA97B93B1D9D6CA9005F92BC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA97B94B1D9D6CA9005F92BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA97B9541D9D6CA9005F92BC /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA97B9561D9D6CA9005F92BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA97B95F1D9D6CA9005F92BC /* _______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA97B9511D9D6CA9005F92BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA97B9351D9D6CA9005F92BC /* 给图片添加水印 */;
+			targetProxy = CA97B9501D9D6CA9005F92BC /* PBXContainerItemProxy */;
+		};
+		CA97B95C1D9D6CA9005F92BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA97B9351D9D6CA9005F92BC /* 给图片添加水印 */;
+			targetProxy = CA97B95B1D9D6CA9005F92BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA97B9421D9D6CA9005F92BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA97B9431D9D6CA9005F92BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA97B9471D9D6CA9005F92BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA97B9481D9D6CA9005F92BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA97B9611D9D6CA9005F92BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA97B9621D9D6CA9005F92BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA97B9641D9D6CA9005F92BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "给图片添加水印/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA97B9651D9D6CA9005F92BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "给图片添加水印/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA97B9671D9D6CA9005F92BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "给图片添加水印Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/给图片添加水印.app/给图片添加水印";
+			};
+			name = Debug;
+		};
+		CA97B9681D9D6CA9005F92BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "给图片添加水印Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/给图片添加水印.app/给图片添加水印";
+			};
+			name = Release;
+		};
+		CA97B96A1D9D6CA9005F92BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "给图片添加水印UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "给图片添加水印";
+			};
+			name = Debug;
+		};
+		CA97B96B1D9D6CA9005F92BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "给图片添加水印UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-rui.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "给图片添加水印";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA97B9311D9D6CA9005F92BC /* Build configuration list for PBXProject "给图片添加水印" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA97B9611D9D6CA9005F92BC /* Debug */,
+				CA97B9621D9D6CA9005F92BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA97B9631D9D6CA9005F92BC /* Build configuration list for PBXNativeTarget "给图片添加水印" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA97B9641D9D6CA9005F92BC /* Debug */,
+				CA97B9651D9D6CA9005F92BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA97B9661D9D6CA9005F92BC /* Build configuration list for PBXNativeTarget "给图片添加水印Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA97B9671D9D6CA9005F92BC /* Debug */,
+				CA97B9681D9D6CA9005F92BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA97B9691D9D6CA9005F92BC /* Build configuration list for PBXNativeTarget "给图片添加水印UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA97B96A1D9D6CA9005F92BC /* Debug */,
+				CA97B96B1D9D6CA9005F92BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA97B92E1D9D6CA9005F92BC /* Project object */;
+}
