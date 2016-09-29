@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Fk-6g-4kp" customClass="DrawView">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0.00%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IPo-gf-SdN">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="IPo-gf-SdN" firstAttribute="centerY" secondItem="7Fk-6g-4kp" secondAttribute="centerY" id="A0v-Yv-ert"/>
+                                    <constraint firstAttribute="height" constant="200" id="fKZ-qc-4KN"/>
+                                    <constraint firstItem="IPo-gf-SdN" firstAttribute="centerX" secondItem="7Fk-6g-4kp" secondAttribute="centerX" id="hAU-qa-NR5"/>
+                                </constraints>
+                            </view>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="3IT-Ni-SmS">
+                                <connections>
+                                    <action selector="slider:" destination="BYZ-38-t0r" eventType="valueChanged" id="ErL-S9-UEa"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="7Fk-6g-4kp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="67" id="GGz-oy-SEw"/>
+                            <constraint firstItem="3IT-Ni-SmS" firstAttribute="leading" secondItem="7Fk-6g-4kp" secondAttribute="leading" id="JSz-ID-b6D"/>
+                            <constraint firstAttribute="trailing" secondItem="7Fk-6g-4kp" secondAttribute="trailing" constant="68" id="PJy-QP-pch"/>
+                            <constraint firstItem="3IT-Ni-SmS" firstAttribute="top" secondItem="7Fk-6g-4kp" secondAttribute="bottom" constant="30" id="YgL-dh-5bu"/>
+                            <constraint firstItem="7Fk-6g-4kp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="133" id="ZcZ-k7-QHi"/>
+                            <constraint firstItem="3IT-Ni-SmS" firstAttribute="trailing" secondItem="7Fk-6g-4kp" secondAttribute="trailing" id="tQS-3P-kDd"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="progressLabel" destination="IPo-gf-SdN" id="aYf-5V-NOA"/>
+                        <outlet property="progressView" destination="7Fk-6g-4kp" id="qKV-w8-Gyd"/>
+                        <outlet property="slider" destination="3IT-Ni-SmS" id="brH-L7-8Hc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

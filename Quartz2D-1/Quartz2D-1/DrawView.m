@@ -42,17 +42,21 @@
 - (void)drawRect{
     UIBezierPath *path = [UIBezierPath bezierPathWithRect:CGRectMake(20, 20, 200, 200)];
     [path stroke];
+    
 }
 //画曲线
 - (void)drawQu{
+    
     UIBezierPath *path = [UIBezierPath bezierPath];
 //    设置起点
+    
     [path moveToPoint:CGPointMake(20, 200)];
     [path addQuadCurveToPoint:CGPointMake(200, 200) controlPoint:CGPointMake(20, 20)];
     [path closePath];
     [path stroke];
 }
 //画直线
+
 - (void)drawLine{
     //    在drawRect方法里已经创建了图形上下文,不用创建图形上下文
     CGContextRef ref = UIGraphicsGetCurrentContext();
@@ -73,4 +77,7 @@
     //    绘制到layer上
     CGContextStrokePath(ref);
 }
+
+
+
 @end
