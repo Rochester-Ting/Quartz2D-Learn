@@ -17,6 +17,7 @@
 		CA9662C51DA145D700593611 /* __UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9662C41DA145D700593611 /* __UITests.m */; };
 		CA9662D41DA1569E00593611 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9662D31DA1569E00593611 /* DrawView.m */; };
 		CA9662D71DA162B700593611 /* RRBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9662D61DA162B700593611 /* RRBezierPath.m */; };
+		CA9662DA1DA1671800593611 /* HandleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = CA9662D91DA1671800593611 /* HandleImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		CA9662D31DA1569E00593611 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 		CA9662D51DA162B700593611 /* RRBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRBezierPath.h; sourceTree = "<group>"; };
 		CA9662D61DA162B700593611 /* RRBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRBezierPath.m; sourceTree = "<group>"; };
+		CA9662D81DA1671800593611 /* HandleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandleImageView.h; sourceTree = "<group>"; };
+		CA9662D91DA1671800593611 /* HandleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HandleImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				CA9662D31DA1569E00593611 /* DrawView.m */,
 				CA9662D51DA162B700593611 /* RRBezierPath.h */,
 				CA9662D61DA162B700593611 /* RRBezierPath.m */,
+				CA9662D81DA1671800593611 /* HandleImageView.h */,
+				CA9662D91DA1671800593611 /* HandleImageView.m */,
 			);
 			path = "画板";
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA9662DA1DA1671800593611 /* HandleImageView.m in Sources */,
 				CA9662A71DA145D700593611 /* ViewController.m in Sources */,
 				CA9662A41DA145D700593611 /* AppDelegate.m in Sources */,
 				CA9662D71DA162B700593611 /* RRBezierPath.m in Sources */,

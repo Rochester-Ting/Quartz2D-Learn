@@ -13,6 +13,8 @@
 @property (nonatomic,assign) CGFloat lineW;
 /** LineColor*/
 @property (nonatomic,strong) UIColor *lineColor;
+/** <#注释#>*/
+@property (nonatomic,strong) UIImage *image;
 //清屏
 -(void)clear;
 //撤销

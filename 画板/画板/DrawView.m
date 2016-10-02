@@ -80,9 +80,19 @@
 
 - (void)drawRect:(CGRect)rect {
     for (RRBezierPath *path in self.arrM) {
-        [path.color set];
-        [path stroke];
+        if ([path isKindOfClass:[UIImage class]]) {
+            UIImage *image = (UIImage *)path;
+            [image drawInRect:rect];
+        }else{
+            [path.color set];
+            [path stroke];
+        }
+        
     }
 }
-
+- (void)setImage:(UIImage *)image{
+    _image = image;
+    [self.arrM addObject:image];
+    [self setNeedsDisplay];
+}
 @end

@@ -8,7 +8,8 @@
 
 #import "ViewController.h"
 #import "DrawView.h"
-@interface ViewController ()
+#import "HandleImageView.h"
+@interface ViewController ()<UINavigationControllerDelegate,UIImagePickerControllerDelegate>
 @property (weak, nonatomic) IBOutlet DrawView *drawView;
 
 @end
@@ -45,7 +46,10 @@
 }
 //照片
 - (IBAction)photo:(UIBarButtonItem *)sender {
-    
+    UIImagePickerController *pickVC = [[UIImagePickerController alloc] init];
+    pickVC.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
+    pickVC.delegate = self;
+    [self presentViewController:pickVC animated:YES completion:nil];
 }
 //线宽
 - (IBAction)value:(UISlider *)sender {
@@ -55,5 +59,17 @@
 - (IBAction)lineColor:(UIButton *)sender {
     self.drawView.lineColor = sender.backgroundColor;
 }
-
+#pragma mark - uiimagepickvcdelegate
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary<NSString *,id> *)info{
+//    NSLog(@"%@",info);
+    UIImage *image = info[@"UIImagePickerControllerOriginalImage"];
+    HandleImageView *handleView = [[HandleImageView alloc] init];
+    handleView.frame = self.drawView.bounds;
+    handleView.image = image;
+    handleView.reBlock = ^(UIImage *image){
+        self.drawView.image = image;
+    };
+    [self.drawView addSubview:handleView];
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end
